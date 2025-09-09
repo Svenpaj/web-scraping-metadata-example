@@ -1,0 +1,32 @@
+{
+  "name": "advanced-web-scraper",
+  "version": "1.0.0",
+  "description": "Web scraping application with search and argeted scraping capabilities",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "web-scraping",
+    "nodejs",
+    "puppeteer",
+    "cheerio"
+  ],
+  "author": "Max Ekstedt",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "node-cron": "^4.2.1",
+    "puppeteer": "^24.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
